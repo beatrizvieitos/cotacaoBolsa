@@ -3,6 +3,9 @@ import yfinance as yf
 
 opcao = "" #Variável de controle
 
+print("\nBem-vindo ao consultor de cotações em bolsa!")
+print("-" * 40)
+
 while True:
     acao = input("Insira o nome da ação em bolsa que deseja consultar: ")
     inicio = input("Insira a data de início da cotação: ")
